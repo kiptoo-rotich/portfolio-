@@ -5164,6 +5164,7 @@ input[type="button"].btn-block {
 #whatsapp {
     border-radius: 30px;
     padding: 10px;
+    margin: 15px;
     background-color: green;
     position: fixed;
     bottom: 5px;
