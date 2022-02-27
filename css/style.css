@@ -5144,6 +5144,35 @@ input[type="button"].btn-block {
     margin-bottom: 0.75rem;
 }
 
+@media (max-width: 500px) {
+    #desktop {
+        display: none;
+        z-index: 300;
+    }
+    #mobile>a>span {
+        display: none;
+    }
+}
+
+@media (min-width: 500px) {
+    #mobile {
+        display: none;
+        z-index: 300;
+    }
+}
+
+#whatsapp {
+    border-radius: 30px;
+    padding: 10px;
+    background-color: green;
+    position: fixed;
+    bottom: 5px;
+    color: white;
+    right: 5px;
+    border: 0px;
+    z-index: 350;
+}
+
 .card-subtitle {
     margin-top: -0.375rem;
     margin-bottom: 0;
@@ -11866,7 +11895,7 @@ h5,
     z-index: 1;
     -webkit-box-shadow: -20px 20px 69px -27px rgba(0, 0, 0, 0.33);
     -moz-box-shadow: -20px 20px 69px -27px rgba(0, 0, 0, 0.33);
-    box-shadow: -20px 20px 69px -27px rgba(0, 0, 0, 0.33);
+    /* box-shadow: -20px 20px 69px -27px rgba(0, 0, 0, 0.33); */
 }
 
 .ftco-about ul.about-info {
@@ -12082,9 +12111,11 @@ h5,
 }
 
 .ftco-hireme {
-    background: #336B87;
     padding: 0;
     color: rgba(255, 255, 255, 0.9);
+    background-image: url(../images/computer.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .ftco-hireme h2 {
@@ -12183,7 +12214,7 @@ h5,
 
 .project:hover .overlay,
 .project:focus .overlay {
-    opacity: .4;
+    opacity: .6;
 }
 
 .project:hover .text,
