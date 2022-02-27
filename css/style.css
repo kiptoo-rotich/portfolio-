@@ -11307,6 +11307,7 @@ h5,
 
 .owl-carousel {
     position: relative;
+    overflow: scroll;
 }
 
 .owl-carousel .owl-item {
@@ -11368,6 +11369,12 @@ h5,
     height: 750px;
     position: relative;
     z-index: 0;
+}
+
+.owl-carousel .owl-stage,
+.owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y !important;
+    touch-action: pan-y !important;
 }
 
 @media (max-width: 1199.98px) {
