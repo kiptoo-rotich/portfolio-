@@ -5152,6 +5152,9 @@ input[type="button"].btn-block {
     #mobile>a>span {
         display: none;
     }
+    #email>a>span {
+        display: none;
+    }
 }
 
 @media (min-width: 500px) {
@@ -5159,6 +5162,19 @@ input[type="button"].btn-block {
         display: none;
         z-index: 300;
     }
+}
+
+#email {
+    border-radius: 30px;
+    padding: 10px;
+    margin: 15px;
+    position: fixed;
+    bottom: 10%;
+    color: white;
+    right: 5px;
+    border: 0px;
+    z-index: 350;
+    border: 1px solid red;
 }
 
 #whatsapp {
@@ -11307,7 +11323,6 @@ h5,
 
 .owl-carousel {
     position: relative;
-    overflow: scroll;
 }
 
 .owl-carousel .owl-item {
