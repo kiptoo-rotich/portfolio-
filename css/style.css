@@ -5170,11 +5170,15 @@ input[type="button"].btn-block {
     margin: 15px;
     position: fixed;
     bottom: 10%;
-    color: white;
     right: 5px;
     border: 0px;
     z-index: 350;
     border: 1px solid red;
+    background-color: white;
+}
+
+#email>a>img {
+    margin: 3px;
 }
 
 #whatsapp {
