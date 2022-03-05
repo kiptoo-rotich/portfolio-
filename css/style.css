@@ -5161,6 +5161,30 @@ input[type="button"].btn-block {
     .project>.text>h3 {
         font-size: 14px;
     }
+    .overlay-10 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: '';
+        opacity: 0.3;
+        background: #000;
+        z-index: 1;
+        border-radius: 5px;
+        -moz-transition: all 0.6s ease;
+        -o-transition: all 0.6s ease;
+        -webkit-transition: all 0.6s ease;
+        -ms-transition: all 0.6s ease;
+        transition: all 0.6s ease;
+    }
+    .owl-carousel.home-slider .slider-item .slider-text .subheading {
+        font-weight: 600;
+        font-size: 14px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: yellow;
+    }
 }
 
 @media (min-width: 500px) {
@@ -11535,12 +11559,12 @@ h5,
 }
 
 .owl-carousel.home-slider .slider-item .slider-text .subheading {
-    color: #000000;
     font-weight: 600;
     font-size: 14px;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #336B87;
+    color: navy;
+    z-index: 1;
 }
 
 .owl-carousel.home-slider .slider-item .slider-text .text {
@@ -11562,7 +11586,7 @@ h5,
 
 @media (max-width: 991.98px) {
     .owl-carousel.home-slider .slider-item .slider-text h1 {
-        color: black;
+        color: #fff;
         font-size: 50px;
     }
 }
