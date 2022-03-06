@@ -5197,7 +5197,7 @@ input[type="button"].btn-block {
 #email {
     border-radius: 30px;
     padding: 10px;
-    margin: 15px;
+    margin-right: 15px;
     position: fixed;
     bottom: 10%;
     right: 5px;
@@ -5214,7 +5214,7 @@ input[type="button"].btn-block {
 #whatsapp {
     border-radius: 30px;
     padding: 10px;
-    margin: 15px;
+    margin-right: 15px;
     background-color: green;
     position: fixed;
     bottom: 5px;
