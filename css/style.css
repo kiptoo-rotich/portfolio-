@@ -5952,6 +5952,7 @@ a.badge-dark.focus {
     font-size: 0.75rem;
     background-color: #e9ecef;
     border-radius: 0.25rem;
+    margin-bottom: 5%;
 }
 
 .progress-bar {
@@ -12492,7 +12493,6 @@ textarea.form-control {
 .ftco-footer {
     font-size: 16px;
     background: #232931;
-    padding: 7em 0;
     z-index: 0;
 }
 
@@ -12510,7 +12510,7 @@ textarea.form-control {
 }
 
 .ftco-footer .ftco-footer-widget ul li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .ftco-footer .ftco-footer-widget ul li a {
