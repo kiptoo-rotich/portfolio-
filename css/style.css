@@ -5183,7 +5183,7 @@ input[type="button"].btn-block {
         font-size: 14px;
         letter-spacing: 3px;
         text-transform: uppercase;
-        color: yellow;
+        color: black;
     }
 }
 
@@ -11564,7 +11564,6 @@ h5,
     font-size: 14px;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: navy;
     z-index: 1;
 }
 
@@ -11582,12 +11581,12 @@ h5,
 
 .owl-carousel.home-slider .slider-item .slider-text h1 span {
     font-weight: 800;
-    color: #336B87;
+    color: darkblue;
 }
 
 @media (max-width: 991.98px) {
     .owl-carousel.home-slider .slider-item .slider-text h1 {
-        color: darkblue;
+        color: black;
         font-size: 50px;
     }
 }
@@ -11595,6 +11594,7 @@ h5,
 @media (max-width: 767.98px) {
     .owl-carousel.home-slider .slider-item .slider-text h1 {
         font-size: 40px;
+        color: black;
     }
 }
 
